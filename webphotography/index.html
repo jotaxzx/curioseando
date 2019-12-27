@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/78a4adf5b5.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Jose Trujillo - Programador</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <h1>Jose Trujillo</h1>
+                <p>Desarrollador Web</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+              <div class="categorias" id="categorias">
+                    <a href="#" class="activo">Todos</a>
+                    <a href="#">Norte</a>
+                    <a href="#">Centro</a>
+                    <a href="#">Sur</a>
+
+                </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item"
+                 data-categoria="norte"
+                 data-etiquetas="valle calor norte"
+                 data-descripcion=".- Foto tomada en el norte de chile desde Valle del elqui."
+                 >
+              <div class="item-contenido">
+                <img src="img/foto1.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="sur"
+                 data-etiquetas="sur frio cerro castillo"
+                 data-descripcion=".- Foto tomada en Cerro Castillo desde la Region de Coyhaique."
+
+            >
+             <div class="item-contenido">
+                <img src="img/foto7.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="centro"
+                 data-etiquetas="ciudad centro santiago providencia gris edificios autos puente noche"
+                 data-descripcion=".- Foto tomada en la comuna de providencia desde el puente los candados."
+             >
+              <div class="item-contenido">
+                <img src="img/foto8.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="centro"
+                 data-etiquetas="ciudad  centro forestal plaza parque arboles santiago"
+                 data-descripcion=".- Foto tomada en santiago de chile, parque forestal."
+           >
+              <div class="item-contenido">
+                <img src="img/foto9.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="sur"
+                 data-etiquetas="mar sur bote barco chiloe castro"
+                 data-descripcion=".- Foto tomada en Castro, Chiloe."
+
+                 >
+              <div class="item-contenido">
+                <img src="img/foto10.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="item"
+                 data-categoria="sur"
+                 data-etiquetas="playa mar sur castro chiloe bote velero"
+                 data-descripcion=".- Foto tomada en la playa Castro, Chiloe."
+
+                 >
+              <div class="item-contenido">
+                <img src="img/foto11.jpg" alt="">
+              </div>
+            </div>
+        </section>
+
+
+      <section class="overlay " id="overlay">
+        <div class="contenedor-img">
+          <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+          <img src="" alt="">
+        </div>
+        <p class="descripcion"> </p>
+      </section>
+
+      <footer class="contenedor">
+<div class="redes-sociales">
+  <div class="contenedor-icono">
+    <a href="#" target="_blank" class="facebook">
+      <i class="fab fa-facebook-square"></i>
+    </a>
+  </div>
+
+  <div class="contenedor-icono">
+    <a href="https://www.instagram.com" target="_blank" class="instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</div>
+
+<div class="creado-por">
+  <p>Sitio diseñado por <a href="#">Jose Trujillo Sandoval</a> - <a href="#">JCoolWebSite</a></p>
+</div>
+      </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
